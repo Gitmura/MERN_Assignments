@@ -8,3 +8,15 @@ Handle a car object: print, delete a property, and get object length.
 
 Skills: Node.js basics, object handling, HTTP headers
 
+# Steps---
+1. Initialize project:
+    mkdir node-objects && cd node-objects
+    npm init -y
+
+2.  Create index.js.
+
+3. Use built-in modules like http to read headers.
+
+4. Define and manipulate an object:
+    const car = { brand: "Toyota", model: "Camry", year: 2020 }
+
