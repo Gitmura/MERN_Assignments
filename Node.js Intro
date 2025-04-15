@@ -1,0 +1,10 @@
+Title: Object and Header Manipulation in Node.js
+
+Tasks:
+
+Read request headers for cookies.
+
+Handle a car object: print, delete a property, and get object length.
+
+Skills: Node.js basics, object handling, HTTP headers
+
