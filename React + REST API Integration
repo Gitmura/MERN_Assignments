@@ -1,0 +1,10 @@
+Title: Fetch and Display Data from API
+
+Tasks:
+
+Use useEffect and fetch() to call a dummy REST API.
+
+Render data in UI.
+
+Skills: React hooks, API calls, loading state
+
