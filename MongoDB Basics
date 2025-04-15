@@ -1,8 +1,8 @@
-Title: Create and Load a Collection
+# Title: Create and Load a Collection
 
 Tasks:
 
-Create a transactions collection in the usermanaged DB.
+# Create a transactions collection in the usermanaged DB.
 
 Drop if it exists.
 
@@ -11,3 +11,15 @@ Load data from transactions.json.
 Upsert records using transactions_upsert.json.
 
 Skills: MongoDB CLI, JSON data, upsert
+
+# Steps--->
+1. Install MongoDB on local machine or use MongoDB Atlas.
+
+2. Create a user managed database.
+
+3. Create transactions.json and transactions_upsert.json.
+
+4. Open terminal:
+      mongoimport --db usermanaged --collection transactions --file transactions.json --jsonArray
+
+5. Use a script or Mongo shell to upsert data from transactions_upsert.json.
