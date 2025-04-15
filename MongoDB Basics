@@ -2,7 +2,7 @@
 
 Tasks:
 
-# Create a transactions collection in the usermanaged DB.
+**Create a transactions collection in the usermanaged DB.**
 
 Drop if it exists.
 
