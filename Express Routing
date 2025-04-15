@@ -7,3 +7,15 @@ Create routes /find_prime_100 and /find_cube_100.
 Return list of primes and cubes < 100.
 
 Skills: Express routing, logic building
+
+# Steps---
+
+1. Setup Express project.
+
+2. Define two routes:
+
+    /find_prime_100: return list of primes
+
+    /find_cube_100: return list of cubes
+
+3. Use logic to calculate and send results as JSON.
