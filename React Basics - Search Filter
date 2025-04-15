@@ -7,3 +7,14 @@ Build a list component with a search input.
 Filter list items based on search term.
 
 Skills: React state, props, array methods
+
+# Steps---
+
+1. Initialize React project:
+    npx create-react-app react-search
+    cd react-search
+    npm start
+
+2. Create array of dummy items.
+
+3. Use useState to manage input and filter list.
