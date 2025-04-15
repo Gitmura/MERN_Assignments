@@ -1,0 +1,9 @@
+Student Record Management
+
+Tasks:
+
+Insert a student object (USN, name, sem, year_of_admission) to MongoDB.
+
+Search students using a partial name match.
+
+Skills: Node.js MongoDB driver, CRUD, regex
