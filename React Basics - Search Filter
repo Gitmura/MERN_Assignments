@@ -8,7 +8,7 @@ Filter list items based on search term.
 
 Skills: React state, props, array methods
 
-# Steps---
+# Steps--->
 
 1. Initialize React project:
     npx create-react-app react-search
