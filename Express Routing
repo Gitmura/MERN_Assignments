@@ -1,0 +1,9 @@
+Multiple Routes with Custom Logic
+
+Tasks:
+
+Create routes /find_prime_100 and /find_cube_100.
+
+Return list of primes and cubes < 100.
+
+Skills: Express routing, logic building
