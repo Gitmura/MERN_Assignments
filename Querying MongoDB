@@ -1,0 +1,9 @@
+Title: Conditional Queries in MongoDB
+
+Tasks:
+
+Find documents using fields like name, price, and range.
+
+Perform aggregation to calculate total transaction amount.
+
+Skills: MongoDB queries, conditions, aggregation
