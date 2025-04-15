@@ -7,3 +7,16 @@ Find documents using fields like name, price, and range.
 Perform aggregation to calculate total transaction amount.
 
 Skills: MongoDB queries, conditions, aggregation
+
+
+Steps-->
+1. Open MongoDB Compass or shell.
+
+2. Insert dummy data manually or via mongoimport.
+
+3. Write queries using:
+      db.transactions.find({ Name: "Somu" })
+      db.transactions.find({ "Payment.Total": 600 })
+      db.transactions.find({ "Transaction.price": { $gte: 300, $lte: 500 } })
+      db.transactions.aggregate([{ $group: { _id: null, total: { $sum: "$Payment.Total" } } }])
+
