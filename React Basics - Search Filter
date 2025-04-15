@@ -1,0 +1,9 @@
+Title: Real-time Filter in React
+
+Tasks:
+
+Build a list component with a search input.
+
+Filter list items based on search term.
+
+Skills: React state, props, array methods
