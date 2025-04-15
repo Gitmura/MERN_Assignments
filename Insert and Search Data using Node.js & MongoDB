@@ -7,3 +7,18 @@ Insert a student object (USN, name, sem, year_of_admission) to MongoDB.
 Search students using a partial name match.
 
 Skills: Node.js MongoDB driver, CRUD, regex
+
+# Steps---
+
+1. Initialize Node.js project.
+
+2. Install packages:
+  npm install express mongoose body-parser
+
+3. Setup MongoDB connection using Mongoose.
+
+4. Create schema for student.
+
+5. Define two routes:
+  POST to insert
+  GET to search by partial name using regex
