@@ -1,0 +1,13 @@
+Title: Create and Load a Collection
+
+Tasks:
+
+Create a transactions collection in the usermanaged DB.
+
+Drop if it exists.
+
+Load data from transactions.json.
+
+Upsert records using transactions_upsert.json.
+
+Skills: MongoDB CLI, JSON data, upsert
